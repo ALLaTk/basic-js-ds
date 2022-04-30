@@ -16,6 +16,7 @@ const { ListNode } = require('../extensions/list-node.js');
 
 class Queue extends ListNode {
 
+  
   super (value) {
     this.value = value;
     this.next = null;
